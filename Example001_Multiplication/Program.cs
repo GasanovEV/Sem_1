@@ -1,2 +1,4 @@
-﻿int a = -7;
-Console.WriteLine(a*a);
+﻿Console.Write ("Введите число ");
+string userInput = Console.ReadLine () ??"";
+int number = int.Parse (userInput);
+Console.WriteLine (number*number);
