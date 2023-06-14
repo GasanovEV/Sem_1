@@ -1,4 +1,8 @@
-﻿Console.Write ("Введите число ");
+﻿Console.Clear();
+Console.Write ("Введите число ");
 string userInput = Console.ReadLine () ??"";
 int number = int.Parse (userInput);
-Console.WriteLine (number*number);
+
+int result = number*number;
+
+Console.WriteLine ($"!!!{number} -> {result}!!!");
